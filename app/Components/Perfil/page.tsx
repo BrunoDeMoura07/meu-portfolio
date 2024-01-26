@@ -1,28 +1,15 @@
 function Perfil() {
   return (
     <>
-      <div className="flex ">
-        <div>
-          <h1>React developer</h1>
-          <span>Bruno Moura</span>
-          <h3>
-            Sou um profissional versátil com expertise em tecnologias como
-            JavaScript, HTML5, CSS3, SQL e Python, dominando do básico ao
-            avançado no desenvolvimento web, incluindo o uso de frameworks como
-            React. Minha bagagem inclui uma visão ágil para os negócios, com
-            cursos como "A Empresa Ágil" e "Gestão Ágil", e uma mentalidade
-            empreendedora embasada em Lean Startup e Business Model Canvas.
-            Minha dedicação ao autodesenvolvimento, com foco em produtividade e
-            aprendizado contínuo, complementa minhas habilidades técnicas,
-            proporcionando uma visão holística dos processos e das necessidades
-            organizacionais. Combinando habilidades sólidas, pensamento
-            estratégico e adaptabilidade, estou pronto para agregar valor em
-            projetos desafiadores, trazendo inovação e eficiência para cada
-            iniciativa.
-          </h3>
+      <div className="flex m-6 bg-gray-800 rounded-lg border-black p-4">
+        <div className="text-center">
+          <h1 className="font-bold text-[50px] bg-clip-text bg-gradient-to-r to-cyan-500 from-purple-500 text-transparent">
+            React developer
+          </h1>
+          <span className="text-[30px] text-orange-500 font-semibold">Bruno Moura</span>
         </div>
       </div>
     </>
   );
 }
-export default Perfil
+export default Perfil;
