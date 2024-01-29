@@ -1,45 +1,33 @@
 function NavBar() {
   return (
     <>
-      <nav className="flex justify-center">
-        <div className="">
-          <ul className="flex p-2 justify-center px-5">
-            <li className="">
-              <a
-                className="size-4 text-gray-300 p-2 hover:text-gray-400"
-                href="#perfil"
-              >
-                Perfil
-              </a>
-            </li>
-            <li>
-              <a
-                className="size-4 text-gray-300 p-2 hover:text-gray-400"
-                href="#skills"
-              >
-                Skills
-              </a>
-            </li>
-                      
-            <li className="">
-              <a
-                className="size-4 text-gray-300 p-2 hover:text-gray-400"
-                href="#xp"
-              >
-                Experiencia
-              </a>
-            </li>
-            <li className="">
-              <a
-                className="size-4 text-gray-300 p-2 hover:text-gray-400"
-                href="#formações"
-              >
-                Formações
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <header>
+        <nav className="flex justify-between p-2">
+          <div>
+            <img src="#" alt="logo" />
+          </div>
+          <div className="p-2">
+            <a className="font-bold text-slate-500 p-2 m-1 " href="#">
+              Perfil
+            </a>
+            <a className="font-bold text-slate-500 p-2 m-1 " href="#">
+              Sobre mim
+            </a>
+            <a className="font-bold text-slate-500 p-2 m-1 " href="#">
+              Skills
+            </a>
+            <a className="font-bold text-slate-500 p-2 m-1 " href="#">
+              Projetos
+            </a>
+            <a className="font-bold text-slate-500 p-2 m-1 " href="#">
+              Formações
+            </a>
+            <a className="font-bold text-slate-500 p-2 m-1 " href="#">
+              Experiencia
+            </a>
+          </div>
+        </nav>
+      </header>
     </>
   );
 }
